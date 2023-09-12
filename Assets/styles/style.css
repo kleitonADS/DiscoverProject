@@ -34,7 +34,8 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 580px;
   margin: 56px auto 32px;
   padding: 0 24px;
 }
@@ -65,7 +66,7 @@ body * {
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  background: var(--text-color) var(--switch-br-url) no-repeat center;
+  background: #ffffff var(--switch-br-url) no-repeat center;
   border: 0;
   position: absolute;
   z-index: 1;
